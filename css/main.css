@@ -1,3 +1,36 @@
 html {
   font-family: "Noto Serif", serif;
 }
+
+h1, .subtitle, footer {
+  color: #fff;
+}
+
+header, footer {
+  background-color: #70ad55;
+}
+
+input, select {
+  border-color: #70ad55;
+}
+
+ fieldset {
+   border-style: none;
+ }
+
+ hr {
+   border-color: rgba(112, 173, 85, 0.3);
+ }
+
+span {
+  color: #70ad55;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+textarea {
+  border-color: #6e8c62;
+}
