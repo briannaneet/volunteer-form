@@ -12,30 +12,30 @@
 </head>
 <body>
 
-  <header>
-    <h1>Apply to be a tree planter</h1>
-    <p class="subtitle">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <header class="gutter-1-2 pad-b-1-8 push-2">
+    <h1 class="bold pad-t push-1-2">Apply to be a tree planter</h1>
+    <p class="subtitle mega pad-b-1-4">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
 
-  <section>
+  <section class="gutter-1-2">
     <form method="post" action="index.html">
 
       <fieldset>
-        <legend>Personal details</legend>
+        <legend class="giga push pad-b-1-2">Personal details</legend>
 
-          <label for="fullname">Full name</label>
+          <label class="push-1-8" for="fullname">Full name</label>
           <input id="fullname" type="text" name="full name">
-          <p>Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley".</p>
+          <p class="italic micro">Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley".</p>
 
-          <label for="nickname">What should we call you?</label>
+          <label class="push-1-8" for="nickname">What should we call you?</label>
           <input id="nickname" type="text" name="nickname">
-          <p>What all your friends call you, e.g. "Liz".</p>
+          <p class="push italic micro">What all your friends call you, e.g. "Liz".</p>
 
-          <label for="dob">Date of birth</label>
-          <input id="dob" type="date" name="Date of birth">
+          <label class="push-1-8" for="dob">Date of birth</label>
+          <input class="push" id="dob" type="date" name="Date of birth">
 
-          <label for="tshirt">T-shirt size</label>
-          <select id="tshirt" name="tshirt">
+          <label class="push-1-8" for="tshirt">T-shirt size</label>
+          <select class="push" id="tshirt" name="tshirt">
             <option value="" selected>Select a t-shirt size</option>
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
@@ -49,27 +49,27 @@
             <option>Straight-cut: XL</option>
           </select>
 
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email">
+          <label class="push-1-8" for="email">Email</label>
+          <input class="push" id="email" type="email" name="email">
 
-          <label for="phone">Phone number<span> (optional)</span></label>
-          <input id="phone" type="tel" name="phone">
+          <label class="push-1-8" for="phone">Phone number<span class="italic"> (optional)</span></label>
+          <input class="push" id="phone" type="tel" name="phone">
 
       </fieldset>
 
       <hr>
 
       <fieldset>
-        <legend>Address</legend>
+        <legend class="giga push pad-t">Address</legend>
 
-        <label for="street">Street address</label>
-        <input id="street" type="text" name="street">
+        <label class="push-1-8 pad-t-1-2" for="street">Street address</label>
+        <input class="push pad-b" id="street" type="text" name="street">
 
-        <label for="city">City</label>
-        <input id="city" type="text" name="city">
+        <label class="push-1-8 pad-t-1-2" for="city">City</label>
+        <input class="push pad-b" id="city" type="text" name="city">
 
-        <label for="province">Province</label>
-        <select id="province" name="province">
+        <label class="push-1-8 pad-t-1-2" for="province">Province</label>
+        <select class="push pad-b" id="province" name="province">
           <option value="" selected>Select a province</option>
           <option value="">Alberta</option>
           <option value="">British Columbia</option>
@@ -86,83 +86,89 @@
           <option value="">Yukon</option>
         </select>
 
-        <label for="postal">Postal code</label>
-        <input id="postal" type="text" name="postal" pattern="[A-Ze-z][0-9][A-Ze-z] ?[0-9][A-Ze-z][0-9]">
+        <label class="push-1-8 pad-t-1-2" for="postal">Postal code</label>
+        <input class="push pad-b" id="postal" type="text" name="postal" pattern="[A-Ze-z][0-9][A-Ze-z] ?[0-9][A-Ze-z][0-9]">
       </fieldset>
 
       <hr>
 
-      <fieldset>
-        <fieldset>
-          <legend>What activities are you interested in helping with?</legend>
+      <div>
+        <fieldset class="grid">
+          <legend class="giga push pad-b-1-2 pad-t">What activities are you interested in helping with?</legend>
 
-          <input id="digging" type="checkbox" name="digging">
-          <label for="digging">Digging holes</label>
+          <div class="unit">
+            <input id="digging" type="checkbox" name="digging">
+            <label class="push-1-4" for="digging">Digging holes</label>
+          </div>
 
-          <input id="dirty" type="checkbox" name="dirty">
-          <label for="dirty">Getting dirty</label>
+          <div class="unit">
+            <input id="dirty" type="checkbox" name="dirty">
+            <label class="push-1-4" for="dirty">Getting dirty</label>
+          </div>
 
-          <input id="lifting" type="checkbox" name="lifting">
-          <label for="lifting">Lifting heavy objects</label>
+          <div class="unit">
+            <input id="lifting" type="checkbox" name="lifting">
+            <label class="push-1-4" for="lifting">Lifting heavy objects</label>
+          </div>
 
           <input id="driving" type="checkbox" name="driving">
-          <label for="driving">Driving people</label>
+          <label class="push-1-4" for="driving">Driving people</label>
 
           <input id="transporting" type="checkbox" name="transporting" value="">
-          <label for="transporting">Transporting trees</label>
+          <label class="push-1-4" for="transporting">Transporting trees</label>
 
           <input id="photos" type="checkbox" name="photos" value="">
-          <label for="photos">Taking photos</label>
+          <label class="push-1-4" for="photos">Taking photos</label>
 
           <input id="publishing" type="checkbox" name="publishing" value="">
-          <label for="publishing">Online publishing</label>
+          <label class="push-1-4" for="publishing">Online publishing</label>
 
           <input id="managing" type="checkbox" name="managing" value="">
-          <label for="managing">Managing people</label>
+          <label class="push-1-4" for="managing">Managing people</label>
 
         </fieldset>
 
         <fieldset>
-          <legend>Do you have any expereince with the following?</legend>
+          <legend class="giga push pad-b-1-2 pad-t">Do you have any expereince with the following?</legend>
 
           <input id="shovels" type="checkbox" name="shovels" value="">
-          <label for="shovels">Shovels</label>
+          <label class="push-1-4" for="shovels">Shovels</label>
 
           <input id="gps" type="checkbox" name="gps" value="">
-          <label for="gps">Hand-held GPS</label>
+          <label class="push-1-4" for="gps">Hand-held GPS</label>
 
           <input id="writing" type="checkbox" name="writing" value="">
-          <label for="writing">Writing & blogging</label>
+          <label class="push-1-4" for="writing">Writing & blogging</label>
 
           <input id="photography" type="checkbox" name="photography" value="">
-          <label for="photography">Photography</label>
+          <label class="push-1-4" for="photography">Photography</label>
 
           <input id="trail" type="checkbox" name="trail" value="">
-          <label for="trail">Trail & hill climbing</label>
+          <label class="push-1-4" for="trail">Trail & hill climbing</label>
 
           <input id="bushcraft" type="checkbox" name="bushcraft" value="">
-          <label for="bushcraft">Bush craft</label>
+          <label class="push-1-4" for="bushcraft">Bush craft</label>
 
           <input id="atvs" type="checkbox" name="atvs" value="">
-          <label for="atvs">ATVs</label>
+          <label class="push-1-4" for="atvs">ATVs</label>
 
           <input id="plants" type="checkbox" name="plants" value="">
-          <label for="plants">Plant identification</label>
+          <label class="push-1-4" for="plants">Plant identification</label>
 
           <input id="planning" type="checkbox" name="planning" value="">
-          <label for="planning">Special event planning</label>
+          <label class="push-1-4" for="planning">Special event planning</label>
 
           <input id="speaking" type="checkbox" name="speaking" value="">
-          <label for="speaking">Speaking to groups</label>
+          <label class="push-1-4" for="speaking">Speaking to groups</label>
 
         </fieldset>
-      </fieldset>
+      </div>
 
       <hr>
 
-      <fieldset>
+      <div>
         <fieldset>
-          <legend>Do you have a valid driver's license?</legend>
+          <legend class="giga push pad-b-1-2 pad-t">Do you have a valid driver's license?</legend>
 
           <input id="yes-license" type="radio" name="license" value="">
           <label for="yes-license">Yes</label>
@@ -171,7 +177,7 @@
         </fieldset>
 
         <fieldset>
-          <legend>Do you have a pick-up truck you'd be willing to use?</legend>
+          <legend class="giga push pad-b-1-2 pad-t">Do you have a pick-up truck you'd be willing to use?</legend>
           <input id="yes-truck" type="radio" name="truck" value="">
           <label for="yes-truck">Yes</label>
           <input id="no-truck" type="radio" name="truck" value="">
@@ -179,23 +185,23 @@
         </fieldset>
 
         <fieldset>
-          <legend>Do you have up-to-date first-aid certification?</legend>
+          <legend class="giga push pad-b-1-2 pad-t">Do you have up-to-date first-aid certification?</legend>
           <input id="yes-aid" type="radio" name="firstaid" value="">
           <label for="yes-aid">Yes</label>
           <input id="no-aid" type="radio" name="firstaid" value="">
           <label for="no-aid">No</label>
         </fieldset>
-      </fieldset>
+      </div>
 
       <hr>
 
-      <fieldset>
-        <label for="comments">Please let us know any comments or questions you may have. <span>(optional)</span></label>
+      <div>
+        <label class="giga push pad-b-1-2 bold pad-t" for="comments">Please let us know any comments or questions you may have. <span class="italic">(optional)</span></label>
         <textarea id="comments" name="comments"></textarea>
-      </fieldset>
+      </div>
 
       <div>
-        <button class="btn" type="button" name="button">Apply</button>
+        <button class="btn" type="submit" name="button">Apply</button>
       </div>
 
     </form>

@@ -14,13 +14,14 @@ input, select {
   border-color: #70ad55;
 }
 
- fieldset {
-   border-style: none;
- }
+fieldset {
+  border-style: none;
+  padding: 0;
+}
 
- hr {
-   border-color: rgba(112, 173, 85, 0.3);
- }
+hr {
+  border-color: rgba(112, 173, 85, .5);
+}
 
 span {
   color: #70ad55;
